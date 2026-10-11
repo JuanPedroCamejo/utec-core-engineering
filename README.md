@@ -1,28 +1,7 @@
-# UTEC Core Engineering
+# Python Fundamentals - Control Flow
 
-Repositorio de ejercicios del curso de fundamentos de Python.
+This directory contains Python scripts for practicing conditional statements.
 
-## Python Fundamentals — Hello World
+## positive_or_negative.py
 
-### structured_output.py
-
-Este script demuestra la ejecución de un archivo Python y la generación de una salida determinista.
-
-El programa:
-- Define el lenguaje y la versión.
-- Calcula una aproximación de Pi y la formatea con dos decimales.
-- Evalúa una expresión de comparación para obtener un valor booleano.
-- Utiliza f-strings para construir la salida.
-
-### Ejecución
-
-Desde el directorio `python_fundamentals/hello_world`, ejecutar:
-
-    ./structured_output.py
-
-### Salida esperada
-
-    Language: Python
-    Version: 3
-    Pi approx: 3.14
-    Computation valid: True
+Generates a random integer between -10 and 10 and prints whether the number is positive, negative, or zero.
