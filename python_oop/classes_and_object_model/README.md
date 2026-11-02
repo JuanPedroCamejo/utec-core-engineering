@@ -66,3 +66,9 @@ Juan Pedro Camejo
 ## Institución
 
 UTEC - Universidad Tecnológica del Uruguay
+## Exercise 1: Square with size
+
+- File: `1-square.py`
+- Introduces a private instance attribute: `__size`.
+- Initializes the size through the `__init__` method.
+- Validated with `1-main.py` and Pycodestyle.
