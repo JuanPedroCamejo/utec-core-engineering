@@ -105,3 +105,31 @@ Crear una clase `Square` que herede de `Rectangle`.
 ### Verificación de estilo
 
     pycodestyle base_geometry.py 1-rectangle.py 2-rectangle.py 1-square.py
+
+## 5. Cuadrado #2
+
+### Objetivo
+Extender la clase `Square` para incorporar su propia representación en cadena.
+
+### Funcionalidades
+
+- Hereda de la clase `Square` del ejercicio anterior.
+- Implementa `__str__()`.
+- La representación devuelve `[Square] <width>/<height>`.
+- Mantiene el cálculo del área y las validaciones heredadas.
+
+### Archivo
+
+- `2-square.py`: implementación de la representación completa del cuadrado.
+
+### Ejecución
+
+    python3 -c "Square = __import__('2-square').Square; s = Square(13); print(s); print(s.area())"
+
+### Verificación de estilo
+
+    pycodestyle base_geometry.py 1-rectangle.py 2-rectangle.py 1-square.py 2-square.py
+
+### Reflexión: polimorfismo
+
+Las clases `Rectangle` y `Square` comparten métodos como `area()`, pero cada una puede proporcionar su propia implementación. Esto permite trabajar con diferentes figuras geométricas mediante una interfaz común.
