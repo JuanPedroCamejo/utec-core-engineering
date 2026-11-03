@@ -30,3 +30,29 @@ La clase contiene los siguientes métodos:
 ### Verificación de estilo
 
     pycodestyle base_geometry.py
+
+## 2. Rectángulo
+
+### Objetivo
+Crear una clase `Rectangle` que herede de `BaseGeometry`.
+
+### Clase Rectangle
+
+- Hereda de la clase `BaseGeometry`.
+- Recibe `width` (ancho) y `height` (altura) en el constructor.
+- Ambos atributos son privados.
+- No dispone de getters ni setters.
+- Valida ambas dimensiones utilizando `integer_validator()` de la clase padre.
+- Las dimensiones deben ser enteros positivos.
+
+### Archivos
+
+- `1-rectangle.py`: implementación de la clase `Rectangle`.
+
+### Ejecución
+
+    python3 -c "Rectangle = __import__('1-rectangle').Rectangle; r = Rectangle(3, 5); print(r)"
+
+### Verificación de estilo
+
+    pycodestyle base_geometry.py 1-rectangle.py
