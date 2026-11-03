@@ -80,3 +80,28 @@ Extender la clase `Rectangle` para implementar el cálculo del área y su repres
 ### Verificación de estilo
 
     pycodestyle base_geometry.py 1-rectangle.py 2-rectangle.py
+
+## 4. Cuadrado #1
+
+### Objetivo
+Crear una clase `Square` que herede de `Rectangle`.
+
+### Funcionalidades
+
+- Recibe un único parámetro `size`.
+- El atributo `size` es privado.
+- Valida que `size` sea un entero positivo mediante `integer_validator()`.
+- Inicializa la clase padre con el mismo ancho y altura.
+- Implementa `area()` para calcular la superficie del cuadrado.
+
+### Archivo
+
+- `1-square.py`: implementación de la clase `Square`.
+
+### Ejecución
+
+    python3 -c "Square = __import__('1-square').Square; s = Square(13); print(s); print(s.area())"
+
+### Verificación de estilo
+
+    pycodestyle base_geometry.py 1-rectangle.py 2-rectangle.py 1-square.py
