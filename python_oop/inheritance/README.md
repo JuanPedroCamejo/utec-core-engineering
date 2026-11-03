@@ -56,3 +56,27 @@ Crear una clase `Rectangle` que herede de `BaseGeometry`.
 ### Verificación de estilo
 
     pycodestyle base_geometry.py 1-rectangle.py
+
+## 3. Rectángulo completo
+
+### Objetivo
+Extender la clase `Rectangle` para implementar el cálculo del área y su representación en cadena.
+
+### Funcionalidades
+
+- `area()`: calcula el área multiplicando el ancho por la altura.
+- `__str__()`: devuelve la descripción `[Rectangle] <width>/<height>`.
+- Mantiene los atributos privados `width` y `height`.
+- Conserva la validación heredada de `BaseGeometry`.
+
+### Archivo
+
+- `2-rectangle.py`: implementación completa de la clase `Rectangle`.
+
+### Ejecución
+
+    python3 -c "Rectangle = __import__('2-rectangle').Rectangle; r = Rectangle(3, 5); print(r); print(r.area())"
+
+### Verificación de estilo
+
+    pycodestyle base_geometry.py 1-rectangle.py 2-rectangle.py
